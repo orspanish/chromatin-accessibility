@@ -1,2 +1,2 @@
 # chromatin-accessibility
-Coding samples and poster from work done for statistical genetics project at the University of Michigan's Big Data Summer Institute in Summer 2024. 
+This repo contains coding samples and a poster from work done for a statistical genetics project at the University of Michigan's Big Data Summer Institute in Summer 2024. `chr1_gene_accessibility` was used to compute gene accessibility scores for all genes on chromosome 1 based on ATAC-seq data supplied by the University of Michigan. This file was later ran as a batch to compute gene accessibility scores for all genes across all autosomal chromosomes (1-22). `timeseries-clust` was used to analyze scoring metric determined in `chr1_gene_accessibility` using the *dtwclust* package.
